@@ -8,3 +8,12 @@ then
 else
     echo "given number $NUMBER is  not greater than 100"
 fi
+
+
+
+if [[ "$NUMBER" -lt 10 ]]
+then
+   echo "given number $NUMBER is less than than 10"
+else
+    echo "given number $NUMBER is  greater than 10"
+fi
