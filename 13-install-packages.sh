@@ -34,7 +34,7 @@ fi
 
 echo "All arguments passed: $@"
 git mysql postfix net-tools
-package=git for first time
+#package=git for first time
 
 for package in $@
 do
