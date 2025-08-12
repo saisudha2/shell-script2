@@ -32,9 +32,9 @@ else
    echo  -e " $G you are root user $N"
 fi
 
-# echo "All arguments passed: $@"
-# git mysql postfix net-tools
-# package=git for first time
+echo "All arguments passed: $@"
+git mysql postfix net-tools
+package=git for first time
 
 for package in $@
 do
