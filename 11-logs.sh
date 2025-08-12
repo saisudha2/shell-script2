@@ -29,7 +29,7 @@ then
   echo -e "$R ERROR:: please run this script with root access $N"
   exit 1
 else
-   echo " $G you are root user $N"
+   echo  -e " $G you are root user $N"
 fi
 
 yum install mysql -y &>> $LOGFILE
