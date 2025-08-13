@@ -33,8 +33,7 @@ else
 fi
 
 echo "All arguments passed: $@"
-git MySQL postfix net-tools
-#package=git for first time
+PACKAGE=("mysql" "python" "nginx" "httpd")
 
 for package in $@
 do
